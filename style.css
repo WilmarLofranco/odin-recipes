@@ -1,32 +1,30 @@
 /* style */
 
-body {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 800;
+.list-container,
+.photo-container {
+    display: flex;
 }
 
-img {
-    width: 300px;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+body {
+    margin: 10px 50px;
+    text-align: center;
 }
 
 h1 {
     color: white;
-    background-color: rgb(236, 193, 52);
+    background-color: goldenrod;
 }
 
-.logo {
-    text-align: center;
+.list-container div {
+    flex: 1;
+    font-size: larger;
+    background-color: goldenrod;
+    margin: 4px;
+    border: 2px solid black;
 }
 
-h1 {
-    text-align: center;
+.photo-container img {
+    flex: 1;
+    height: 400px;
+    margin: 4px;
 }
-
-
